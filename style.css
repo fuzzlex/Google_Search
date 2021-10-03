@@ -85,8 +85,9 @@ header{
     border-radius: 40px;  
 }
 .searcher:hover{
-    box-shadow: -2px 3px rgba(189, 186, 186,0.4);
+    box-shadow: -5px 4px  rgba(189, 186, 186,0.4);
     cursor: text;
+    transition: 0.5s;
 }
 
 #magnify{
