@@ -107,7 +107,7 @@ header{
 .searcher input{
     border:none;
     width: 450px;
-    height: 30px;
+    height: 20px;
 }
 .searcher input:focus{
     outline: 0px;
