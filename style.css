@@ -68,14 +68,17 @@ header{
 #signin:hover{
     cursor: pointer;
     background-color: rgb(212, 224, 235);
-    transition: 0.5s;
+   
     color: black;
+    width: 100px;
 }
 #signin{
     background-color:rgb(81, 121, 230);
     color:white;
     padding: 9px 17px;
     border:none;
+    width: 90px;
+    transition: width .9s ease-in-out;
 }
 
 .googleimg{
@@ -102,6 +105,11 @@ header{
     height: 55px;
     text-indent: 50px; 
 }
+.searcher input:focus{
+    outline: 0px;
+    background-color:rgba(235, 227, 227,0.2);
+}
+
 
 #magnify{
     position: absolute;
@@ -129,9 +137,6 @@ header{
     
 }
 
-.searcher input:focus{
-    outline: 0px;
-}
 
 .searchbutton{
     max-width: 300px;
